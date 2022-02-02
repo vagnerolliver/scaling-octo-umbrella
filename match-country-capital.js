@@ -19,11 +19,11 @@ export default function CountryCapitalGame({ data }) {
         }
     }, [itemsActive])
 
-    useEffect(() => {
-        if (matchError) {
-            checkMatch()
-        }
-    }, [matchError])
+    // useEffect(() => {
+    //     if (matchError) {
+    //         checkMatch()
+    //     }
+    // }, [matchError])
 
     function selectedItemsQuantity() {
         const result = list.filter(item => item.select )
